@@ -1,0 +1,36 @@
+-----------------------------------------------------------------------------
+TwilioControllerTest: test_/planets_should_Dial_an_extension_when_2_is_chosen
+-----------------------------------------------------------------------------
+Processing by TwilioController#planet_selection as HTML
+  Parameters: {"From"=>"15556505813", "Digits"=>"2"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms)
+-------------------------------------------------------------------
+TwilioControllerTest: test_should_Gather_something_when_2_is_chosen
+-------------------------------------------------------------------
+Processing by TwilioController#menu_selection as HTML
+  Parameters: {"From"=>"15556505813", "Digits"=>"2"}
+Completed 200 OK in 1ms (Views: 1.0ms)
+------------------------------------------------------------------------------------
+TwilioControllerTest: test_should_Redirect_to_main_menu_when_anything_else_is_chosen
+------------------------------------------------------------------------------------
+Processing by TwilioController#menu_selection as HTML
+  Parameters: {"From"=>"15556505813", "Digits"=>"*"}
+Completed 200 OK in 1ms (Views: 1.0ms)
+----------------------------------------------------------------
+TwilioControllerTest: test_should_Say_something_when_1_is_chosen
+----------------------------------------------------------------
+Processing by TwilioController#menu_selection as HTML
+  Parameters: {"From"=>"15556505813", "Digits"=>"1"}
+Completed 200 OK in 1ms (Views: 1.0ms)
+-------------------------------------------
+TwilioControllerTest: test_should_get_index
+-------------------------------------------
+Processing by TwilioController#index as HTML
+Completed 200 OK in 2ms (Views: 2.0ms)
+---------------------------------------------------------------
+TwilioControllerTest: test_should_serve_up_TwiMl_at_ivr/welcome
+---------------------------------------------------------------
+Processing by TwilioController#ivr_welcome as HTML
+  Parameters: {"From"=>"15556505813"}
+Completed 200 OK in 1ms (Views: 0.0ms)

@@ -1,0 +1,6 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-29 08:35:53 -0700
+Processing by TwilioController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 55ms (Views: 42.0ms)
